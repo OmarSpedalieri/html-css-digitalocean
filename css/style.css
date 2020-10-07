@@ -16,7 +16,7 @@ img {
 /* regole di debug */
 [class*="col-"] {
   min-height: 100px;
-  /* background-color: lightgreen; */
+  background-color: lightgreen;
   border: solid 1px  #000;
   /* padding: 2px; */
 }
@@ -24,14 +24,13 @@ img {
 /* .row .col-6 div  */
 [class*="col-"] > .row > [class*="col-"]{
   background-color: salmon;
-  /* border-color: #fff; */
+  /border-color: #fff;
 }
 
 
 .container{
 padding:0;
 font-size: 20px;
-
 }
 
 .white_font{
@@ -39,12 +38,14 @@ font-size: 20px;
 }
 
 .dark_font{
-  color: #031b4e
+  color: #031b4e;
+}
 
+.blue_font{
+  color: #006aff;
 }
 
 .ms_centered{
-
   text-align: center;
 }
 
@@ -53,12 +54,14 @@ h1{
 }
 
 h2{
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 h3{
   font-size: 1em;
+
+}
 
 }
 
@@ -68,9 +71,33 @@ h3{
 
 /* ----MODIFICA COMPONENTI NAVBAR BOOTSTRAP */
 
+header .navbar-default{
+  border-width: 0;
+}
+
+ header .navbar{
+  background-color: white;
+  margin-bottom: 0;
+  border: 0px;
+
+ }
+header .navbar-default .navbar-nav>li>a{
+  color: #031b4e;
+}
+
+header .navbar-default .navbar-nav>.active>a{
+  color: #006aff;
+}
+
+.navbar-header {
+  max-width:15%;
+}
 
 
-
+.logo_home{
+  /* max-width: 15%;
+  height: auto; */
+}
 
 
 
@@ -90,7 +117,7 @@ h3{
   width: 100%;
   min-height: 350px;
   /* margin: auto; */
-
+  padding: 10px;
   border-radius: 5px;
   background-color: white;
 }
@@ -104,22 +131,26 @@ h3{
   /* max-width: 100%;
   min-height: 100px;
   margin:10% auto; */
-
-
-
 }
-#CUSTOMERS img{
 
-
-}
 
 
 #CUSTOMERS {
-
 background-color: #f3f5f9;
 
 }
 
+
+/* <!-- ------- SEZIONE 1---------- --> */
+
+#linea_verticale{
+  width: 90%;
+  height: auto;
+  background-color: lightgreen;
+  border-color: #lightgrey;
+  border-width: .5px;
+  border-left: solid;
+}
 
 
 
