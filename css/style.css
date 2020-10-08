@@ -100,8 +100,24 @@ header .navbar-default .navbar-nav>.active>a{
 
 
 .logo_home{
-  /* max-width: 15%;
-  height: auto; */
+  min-width: 150px;
+  height: auto;
+}
+
+#sign_up .btn{
+  border: 0;
+  width: 100%
+}
+#sign_up .create_account{
+background-color: #579aff;
+color: white;
+}
+#sign_up .google_signup{
+box-shadow: 0px 2px 5px 	#ccccd3;
+background-image: url("../img/google-icon.png");
+background-position: left;
+background-size: contain;
+background-repeat: no-repeat;
 }
 
 
@@ -111,8 +127,8 @@ header .navbar-default .navbar-nav>.active>a{
 /* <!-- ------- SEZIONE JUMBO---------- --> */
 
 #JUMBO{
-  /* padding: 2% 0; */
-  background-image:url("../img/home.jpg");
+  padding: 2% 0;
+  background-image:url("../img/bg-home-hero.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -227,3 +243,21 @@ td {
 
 
 /* <!-- ------- FOOTER----------- --> */
+
+
+footer{
+  background-color: #031c4e;
+  padding: 3% 0;
+  color: white;
+}
+footer ul {
+/* text-align: left; */
+
+list-style: none;
+}
+
+footer ul>li {
+/* text-align: left; */
+margin-top: 20px;
+
+}
