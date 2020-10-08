@@ -17,6 +17,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- <link href="//db.onlinewebfonts.com/c/2fe381b3d8cf4ee5f331668970d8a65a?family=Sailec-Light" rel="stylesheet" type="text/css"/> -->
     <title>Digital Ocean</title >
 
   </head>
@@ -29,7 +30,7 @@
         <nav class="navbar navbar-default">
           <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
+            <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
@@ -40,32 +41,33 @@
             <a class="navbar-brand" href="index.html">
               <img src="img/logo.png" class="logo_home"/></a>
             <!-- <a  href="index.html"><img src="img/logo.png" class="logo_home"/></a> -->
-    </div>
-
-
+          </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-      <form class="navbar-form navbar-left">
-        <ul class="nav navbar-nav">
-          <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
-          <li><a href="#">Customers </a></li>
-          <li><a href="#">Community <i class="fas fa-chevron-down"></i></a></li>
-          <li><a href="#">Pricing </a></li>
-        </ul>
+              <form class="navbar-form navbar-left">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
+                  <li><a href="#">Customers </a></li>
+                  <li><a href="#">Community <i class="fas fa-chevron-down"></i></a></li>
+                  <li><a href="#">Pricing </a></li>
+                </ul>
+              </form>
 
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <button type="submit" class="btn btn-default">Sign up</button>
-        <li><a href="#">Docs</a></li>
-        <li><a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
-        <li><a href="#">Login</a></li>
+              <form class="navbar-form navbar-right">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Docs</a></li>
+                  <li><a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
+                  <li><a href="#">Login</a></li>
+                  <button type="submit" class="btn btn-default">Sign up</button>
+                </ul>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
 
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+
       </div>
         <!-- ************ JUMBOTRON BLUE ************-->
         <section id="JUMBO">
@@ -106,7 +108,7 @@
                       <button type="submit" class="btn btn-default google_signup shadow-sm p-3 mb-5"> Sign up with Google</button>
                     </div>
 
-                    <p >By Signing up you agree to the <a href="#"> Terms of service </p>
+                    <p >By Signing up you agree to the <a href="#"> Terms of service </a></p>
 
                   </form>
                 </div>
@@ -184,13 +186,13 @@
     <main>
 
       <!-- ************ SEZIONE 1 ************-->
-      <section>
+      <section id="SEZIONE_1">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
               <div class="">
-                <h2 class="dark_font ms_centered">Deploy and scale seamlessly</h2>
-                <p class="dark_font ms_centered">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+                <h2 class="dark_font text-center">Deploy and scale seamlessly</h2>
+                <h3 class="dark_grey_font text-center ">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</h3>
               </div>
             </div>
           </div>
@@ -203,7 +205,7 @@
 
                 </div>
                 <div class="col-xs-12 col-md-10 col-lg-8">
-                  <div id="linea_verticale">
+                  <div id="elenco_verticale">
                       Deploy <br>
                       Manage <br>
                       Secure <br>
@@ -223,24 +225,31 @@
               <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-6">
                   <div class="deploy_block">
-                    <img src="img/cluster-deploy.svg" alt="cluster"class="icona_piccola">
+                    <img src="img/cluster-deploy.svg" alt="cluster" class="icona_piccola">
                     <h3 class="dark_font">Cluster deployment</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
                   </div>
-
-                  <div class="">
-
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6">
+                  <div class="deploy_block">
+                    <img src="img/optimized-compute.svg" alt="optimized" class="icona_piccola">
+                    <h3 class="dark_font">Optimized compute types</h3>
+                    <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
                   </div>
-
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-6">
-                  OPTIMIZED
+                  <div class="deploy_block">
+                    <img src="img/one-click.svg" alt="one-click" class="icona_piccola">
+                    <h3 class="dark_font">One-click apps</h3>
+                    <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker and more.</p>
+                  </div>
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-6">
-                  ONE CLICK
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-6">
-                  GLOBAL
+                  <div class="deploy_block">
+                    <img src="img/global.svg" alt="global" class="icona_piccola">
+                    <h3 class="dark_font">Global avalaibility</h3>
+                    <p>Deploy to any of our data center regions around the world.</p>
+                  </div>
                 </div>
               </div>
 
@@ -267,7 +276,7 @@
               <!-- ************ SLIDESHOW ************-->
               <div class="row">
                 <div class="col-xs-12 col-md-2 col-lg-1 col-lg-offset-2 vertical_aligned">
-                  <h1 class="arrow_left"><i class="fas fa-chevron-left"></i></h1>
+                  <h1><i class="fas fa-chevron-left"></i></h1>
                 </div>
 
                 <div class="col-xs-12 col-md-8 col-lg-6 col-lg-offset-0">
@@ -277,7 +286,7 @@
                 </div>
 
                 <div class="col-xs-12 col-md-2 col-lg-1 vertical_aligned">
-                  <h1 class="arrow_right"><i class="fas fa-chevron-right"></i></h1>
+                  <h1><i class="fas fa-chevron-right"></i></h1>
                 </div>
               </div>
 
@@ -301,32 +310,42 @@
       </section>
 
         <!-- ************ SEZIONE 3 ************-->
-      <section>
+      <section id="SEZIONE_3">
         <div class="container">
           <div class="row">
             <div class="col-xs-12  col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
               <!-- ************ TITOLO************-->
               <div class="">
-                <h2 class="dark_font ms_centered">The features your business needs</h2>
+                <h2 class="dark_font text-center">The features your business needs</h2>
               </div>
 
             </div>
 
             <div class="col-xs-12 col-md-4 col-lg-4">
-              <div class="predictable">
+              <div class="features_block">
                 <img src="img/pred-pricing.svg" alt="predictable pricing"class="icona_piccola">
-                <h3 class="dark_font">Cluster deployment</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <h4 class="blue_font"><a href="#">pricing</a></h4>
+                <h3 class="dark_font">Predictable pricing</h3>
+                <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
+                <h3 ><a href="#"  class="blue_font">Pricing <i class="fas fa-chevron-right"></i></a></h3>
               </div>
             </div>
 
             <div class="col-xs-12 col-md-4 col-lg-4">
-            WORLD CLASS
+              <div class="features_block">
+                <img src="img/world-class.svg" alt="worldclass"class="icona_piccola">
+                <h3 class="dark_font">World class service</h3>
+                <p>Free around-the-clock technical support for all customers. You’ll feel the love.</p>
+                <h3><a href="#"  class="blue_font">Support <i class="fas fa-chevron-right"></i></a></h3>
+              </div>
             </div>
 
             <div class="col-xs-12 col-md-4 col-lg-4">
-            RELIABLE
+              <div class="features_block">
+                <img src="img/reliable-platform.svg" alt="reliable platform"class="icona_piccola">
+                <h3 class="dark_font">Reliable platform</h3>
+                <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+                <h3 ><a href="#" class="blue_font">Security <i class="fas fa-chevron-right"></i></a></h3>
+              </div>
             </div>
           </div>
         </div>
@@ -334,14 +353,14 @@
       </section>
 
       <!-- ************ SEZIONE 4 ************-->
-      <section class="blu_gradient">
+      <section id="SEZIONE_4" class="blu_gradient">
 
         <div class="container">
           <div class="row">
 
             <!-- ************ TITOLO************-->
-            <div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-            <h2 class="white_font">Service your customers around the world from 12 regions.</h2>
+            <div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
+              <h2 class="white_font">Service your customers around the world from 12 regions.</h2>
             </div>
 
             <div class="col-xs-12 col-md-12 col-lg-6">
@@ -349,35 +368,34 @@
                 <table class="table">
                   <tr>
                     <td colspan="2">AMS2</td>
-                    <td class="text-right"> Amsterdam, Netherlands</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> Amsterdam, Netherlands</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
                   <tr>
                     <td colspan="2">AMS3</td>
-                    <td class="text-right"> Amsterdam, Netherlands</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> Amsterdam, Netherlands</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
                   <tr>
                     <td colspan="2">BLR1</td>
-                    <td class="text-right"> Bangalore, INDIA</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> Bangalore, INDIA</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
                   <tr>
                     <td colspan="2">FRA1</td>
-                    <td class="text-right"> Frankfurt, Germany</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> Frankfurt, Germany</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
                   <tr>
                     <td colspan="2">LON1</td>
-                    <td class="text-right"> London, UK</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> London, UK</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
                   <tr>
                     <td colspan="2">NYC1</td>
-                    <td class="text-right"> New York, USA</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> New York, USA</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
-
                 </table>
               </div>
             </div>
@@ -387,38 +405,40 @@
                 <table class="table">
                   <tr>
                     <td colspan="2">AMS2</td>
-                    <td class="text-right"> Amsterdam, Netherlands</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> Amsterdam, Netherlands</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
                   <tr>
                     <td colspan="2">AMS3</td>
-                    <td class="text-right"> Amsterdam, Netherlands</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> Amsterdam, Netherlands</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
                   <tr>
                     <td colspan="2">BLR1</td>
-                    <td class="text-right"> Bangalore, INDIA</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> Bangalore, INDIA</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
                   <tr>
                     <td colspan="2">FRA1</td>
-                    <td class="text-right"> Frankfurt, Germany</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> Frankfurt, Germany</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
                   <tr>
                     <td colspan="2">LON1</td>
-                    <td class="text-right"> London, UK</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> London, UK</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
                   <tr>
                     <td colspan="2">NYC1</td>
-                    <td class="text-right"> New York, USA</td>
-                    <td class="blue_font text-right">test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></td>
+                    <td class="text-left"> New York, USA</td>
+                    <td class="lightblue_font text-right">test speed <i class="fas fa-chevron-right"></i></td>
                   </tr>
 
                 </table>
               </div>
             </div>
+
+
 
 
           </div>
@@ -470,7 +490,7 @@
             <div class="col-xs-12">
               <div class="text-center">
                 <h2 class="white_font">Get started now.</h2>
-                <button type="submit" class="btn btn-default blue_font">Create your account</button>
+                <button type="submit" class="btn btn-default blue_font"> <h2>Create your account</h2></button>
 
               </div>
             </div>
@@ -491,9 +511,9 @@
         <div class="row">
           <div class="col-xs-12 col-md-12 col-lg-4">
             <img src="img/logo-small.svg" alt="small_logo">
-            <p>© 2020 DigitalOcean, LLC. All rights reserved.</p>
-            <p>proudly made in NY.</p>
-            <div id="social">
+            <p class="copyright dark_grey_font">© 2020 DigitalOcean, LLC. All rights reserved.</p>
+            <p id="made_in_NY" class="copyright">Proudly made in NY.</p>
+            <div id="social" class="dark_grey_font">
               <i class="fab fa-twitter"></i>
               <i class="fab fa-facebook-square"></i>
               <i class="fab fa-instagram"></i>
@@ -504,31 +524,62 @@
 
           <div class="col-xs-12 col-md-6 col-lg-2">
             <h3>Company</h3>
-            <ul>
+            <ul class="text-left dark_grey_font">
               <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
+              <li>Leadership</li>
+              <li>Link</li>
+              <li>Blog</li>
+              <li>Careers</li>
+              <li>Partner Network</li>
+              <li>Reerral Program</li>
+              <li>Events</li>
+              <li>Press</li>
+              <li>Legal & Security</li>
             </ul>
 
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-2">
-          PRODUCTS
+            <h3>Products</h3>
+            <ul class="text-left dark_grey_font">
+              <li>Droplets</li>
+              <li>Spaces</li>
+              <li>Kubernetes</li>
+              <li>Load Balancers</li>
+              <li>Block Storage</li>
+              <li>Tools & Integration</li>
+              <li>One-Click Apps</li>
+              <li>API</li>
+              <li>Pricing</li>
+              <li>Documentation</li>
+              <li>Release Notes</li>
+
+            </ul>
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-2">
-          COMMUNITY
+            <h3>Community</h3>
+            <ul class="text-left dark_grey_font">
+              <li>Tutorials</li>
+              <li>Meetups</li>
+              <li>Q&A</li>
+              <li>Write for Donation</li>
+              <li>Droplets for Demos</li>
+              <li>Hatch</li>
+              <li>Shop Swag</li>
+              <li>Research Program</li>
+              <li>Currents Research</li>
+              <li>Open source</li>
+            </ul>
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-2">
-          SUPPORT
+            <h3>Support</h3>
+            <ul class="text-left dark_grey_font">
+              <li>Contact Support</li>
+              <li>FAQ</li>
+              <li>Network Status</li>
+            </ul>
           </div>
 
 
