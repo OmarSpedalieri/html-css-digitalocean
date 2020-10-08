@@ -29,7 +29,8 @@ img {
 
 
 .container{
-padding:0;
+
+padding: 0 20px;
 font-size: 20px;
 font-family: 'Sailec-Light';
 }
@@ -141,7 +142,7 @@ background-repeat: no-repeat;
 /* <!-- ------- SEZIONE JUMBO---------- --> */
 
 #JUMBO{
-  padding: 5% 0;
+  padding: 3% 0;
   background-image:url("../img/bg-home-hero.svg");
   background-position: center;
   background-size: cover;
@@ -173,7 +174,7 @@ background-repeat: no-repeat;
 }
 
 #CUSTOMERS {
-  padding: 2%;
+padding: 3% 0;
 
 }
 #CUSTOMERS h3{
@@ -190,6 +191,11 @@ background-color: #f3f5f9;
 
 
 /* <!-- ------- SEZIONE 1---------- --> */
+#SEZIONE_1{
+
+
+  margin: auto;
+}
 #SEZIONE_1 p{
   font-size: 15px;
 }
@@ -211,11 +217,9 @@ font-weight: bold;
   height: auto;
   line-height: 45px;
   color: #5b6987;
-  padding-left: 10px;
+  padding: 0 20px;
   margin: 5% 0;
-  border-color: #lightgrey;
-  border-width: .5px;
-  border-left: solid;
+  border-left: solid 1px lightgrey;
 }
 
 .deploy_block{
@@ -238,6 +242,7 @@ height: 50px;
 }
 
 #SEZIONE_2{
+
   text-align: center;
   margin: auto;
 }
@@ -249,13 +254,41 @@ height: 50px;
 #SEZIONE_2 [class*="arrow_"]{
   display: inline-block;
 
-
 }
 
-.vertical_aligned{
+#carousel_1{
+  max-width: 600px;
+  max-height: 400px;
+  min-width: 300px;
+  min-height: 200px;
+  margin: 5% auto;
+}
+
+/* #carousel_1 .carousel-control.left{
+  position: absolute;
+  right: 100%;
+  background-image: none;
+
+}
+#carousel_1 .carousel-control.right{
+  position: absolute;
+  left: 100%;
+  background-image: none;
+
+} */
+
+
+
+
+#carousel_1 [class*=icon-]{
+  color: red;
+  font-size: 100px;
+}
+
+/* .vertical_aligned{
   margin-top: 10%;
 
-}
+} */
 
 /* <!-- ------- SEZIONE 3---------- --> */
 
@@ -299,17 +332,25 @@ font-weight: bold;
 #SEZIONE_4 td {
   font-size: .8rem;
   padding: 10px;
+
+}
+
+#SEZIONE_4 table tr:first-child td{
   border-top: 0;
   border-bottom: solid 1px white;
 }
 
 
-/* <!-- ------- SEZIONE 5---------- --> */
 
+
+/* <!-- ------- SEZIONE 5---------- --> */
+#SEZIONE_5{
+  padding: 3% 200px;
+}
 
 /* <!-- ------- SEZIONE 6---------- --> */
-#SEZIONE6{
-  padding: 3% 0;
+#SEZIONE_6{
+  padding: 3% 20px;
 }
 
 
@@ -355,3 +396,18 @@ font-size: 1.5rem;
   color: #516182;
   font-size: .8rem;
 }
+
+
+
+/* ********  MEDIA QUERY  ********* */
+
+
+/* Small devices (tablets, 750px and up) */
+@media (max-width: @screen-xs-max) {
+
+#carousel_1 .icon-prev{
+  display:none;
+}
+
+
+ }
