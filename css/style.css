@@ -30,7 +30,7 @@ img {
 
 .container{
 
-padding: 0 20px;
+padding: 0;
 font-size: 20px;
 font-family: 'Sailec-Light';
 }
@@ -76,6 +76,10 @@ h3{
 
 h4{
 font-size: .5em;
+
+}
+.GREY_BG {
+background-color: #f3f5f9;
 
 }
 
@@ -184,15 +188,12 @@ padding: 3% 0;
 
 
 
-.GREY_BG {
-background-color: #f3f5f9;
 
-}
 
 
 /* <!-- ------- SEZIONE 1---------- --> */
 #SEZIONE_1{
-
+/* padding: 3% 3%; */
 
   margin: auto;
 }
@@ -217,13 +218,14 @@ font-weight: bold;
   height: auto;
   line-height: 45px;
   color: #5b6987;
-  padding: 0 20px;
+  padding: 0 5%;
   margin: 5% 0;
   border-left: solid 1px lightgrey;
 }
 
 .deploy_block{
-  margin: 5% 0;
+  /* margin: 5% 0; */
+  padding: 0 5%;
 }
 
 .icona_piccola{
@@ -402,10 +404,10 @@ font-size: 1.5rem;
 /* ********  MEDIA QUERY  ********* */
 
 
-/* Small devices (tablets, 750px and up) */
-@media (max-width: @screen-xs-max) {
+/* Small devices (tablets,991px and up) */
+@media (max-width: @screen-sm-max) {
 
-#carousel_1 .icon-prev{
+[class*="icon-prev"]{
   display:none;
 }
 
