@@ -1,31 +1,31 @@
 /* regole generali */
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 
 img {
   max-width: 100%;
   height: auto;
 }
 
+[class*="col-"] {
+  padding: 0 0;
+}
+
+
 
 
 /* regole di debug */
-[class*="col-"] {
+/* [class*="col-"] { */
+
   /* min-height: 100px; */
   /* background-color: lightgreen;
-  border: solid 1px  #000; */ */
+  border: solid 1px  #000; */
   /* padding: 2px;
 }
 
 /* .row .col-6 div  */
 /* [class*="col-"] > .row > [class*="col-"]{ */
   /* background-color: salmon;
-  /border-color: #fff; */
-}
+  /border-color: #fff;
+}*/
 
 
 .container{
@@ -113,9 +113,7 @@ header .navbar-default .navbar-nav>.active>a{
 .navbar-brand {
   padding: 15px 0;
 }
-.navbar-right{
-  padding-left:  10%;
-}
+
 
 
 
@@ -301,6 +299,8 @@ font-weight: bold;
 #SEZIONE_4 td {
   font-size: .8rem;
   padding: 10px;
+  border-top: 0;
+  border-bottom: solid 1px white;
 }
 
 
