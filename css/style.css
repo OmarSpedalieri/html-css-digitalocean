@@ -44,6 +44,9 @@ font-size: 20px;
 .blue_font{
   color: #006aff;
 }
+.dark_grey_font{
+  color: #5b6987;
+}
 
 .ms_centered{
   text-align: center;
@@ -152,6 +155,15 @@ background-repeat: no-repeat;
   /* max-width: 100%;
   min-height: 100px;
   margin:10% auto; */
+}
+
+#CUSTOMERS {
+  padding: 2%;
+
+}
+#CUSTOMERS h3, p{
+
+  font-size: 15px;
 }
 
 
