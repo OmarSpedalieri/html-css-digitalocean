@@ -202,7 +202,7 @@ height: 50px;
 
 
 
-#service_table{
+.blu_gradient{
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,32,155,1) 0%, rgba(4,115,191,1) 100%, rgba(214,113,162,1) 100%, rgba(0,71,197,1) 100%);
 
 
@@ -212,7 +212,13 @@ td {
 }
 
 
+/* <!-- ------- SEZIONE 5---------- --> */
 
+
+/* <!-- ------- SEZIONE 6---------- --> */
+#SEZIONE6{
+  padding: 3% 0;
+}
 
 
 
