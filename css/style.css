@@ -125,7 +125,7 @@ header .navbar-default .navbar-nav>.active>a{
 
 
 #signup{
-  margin: 3% auto;
+  margin: 3% 10px;
 }
 #sign_up{
   width: 100%;
@@ -467,6 +467,9 @@ font-size: 1.5rem;
 .carousel-control {
   display: none;
 }
+#signup{
+  margin: 3% 15px;
+}
 
 #create55_seconds{
   font-size: .5rem;
@@ -476,6 +479,8 @@ font-size: 1.5rem;
   margin-bottom: 10%;
 }
 
-
+#SEZIONE_6{
+  margin-top: 10%;
+}
 
  }
